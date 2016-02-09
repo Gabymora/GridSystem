@@ -1,0 +1,176 @@
+header {
+padding: 15px 0;
+margin: 0px;
+color: #fff;
+border-bottom: solid #333 1px;
+background: #333;
+}
+.logo {
+width: 80px;
+height: 80px;
+}
+nav ul {
+list-style-type: none;
+padding-top: 34px;
+margin: 0 -15px 0 0;
+float: right;
+font-size: 14px;
+line-height: 14px;
+text-transform: uppercase;
+white-space: nowrap;
+}
+nav li {
+position: relative;
+float: left;
+margin: 0;
+padding: 0;
+}
+nav li:hover a{
+background: #585858;
+}
+nav a {
+text-decoration: none;
+padding: 10px 15px;
+color: #eee;
+text-shadow: 2px 2px 4px #000;
+}
+nav a:hover {
+color: #fff;
+}
+/* -------------------------SEGUNDA PARTE------------------------- */
+section {
+padding: 15px 0;
+margin: 0px;
+background: #C8C7C7;
+}
+h2{
+color: black;
+margin: 20px -250px 25px 8px;
+}
+.p1 {		/*propiedad del texto 'more episodes'*/
+color:blue;
+font-size: 14px;
+margin:25px 10px 25px 0px;
+}
+.img2 {		/* propiedades generales de las imagenes */
+width: 212px;
+height: 212px;
+margin: 10px 0px 10px 15px;
+border: 1px solid #707082;
+padding: 3px;
+background: white;
+}
+.p2 {		/*propiedades de las letras bajo las primeras imagenes*/
+display: inline;
+text-align: center;
+font-size: 21px;
+font-family: Arial;
+font-style: bold;
+color: #3E4297;
+margin-bottom: 30px;
+}
+/* .......................TERCERA PARTE......................... */
+.sec3 {
+padding: 15px 0;
+margin: 0px;
+background: white;
+}
+h4{		/*menu de lado derecho, Suscribe...*/
+margin-top: 30px;
+margin-bottom: 5px;
+}
+hr{
+width: 100%;
+color: grey;
+margin-top:0px;
+margin-bottom: 10px;
+}
+.hr1{	/*Propiedades de la segunda y tercer linea*/
+margin-top: 15px;
+margin-bottom: 15px;
+}
+.img3 {		/*Imagenes de los iconos, menu del lado derecho*/
+width: 10px;
+height: 10px;
+margin-right: 10px;
+display: inline
+}
+.div3 {		/*Propiedad del div principal de la seccion 3*/
+float:right;
+position: relative
+}
+ul li {			/*propiedades de la lista*/
+list-style-type: none;
+margin: 8px;
+font-size: 12px;
+}
+.mider		/*fue para que toda la columna quedara de lado derecho del usuario*/
+{
+float: right;
+}
+.p3 {		/*Propiedad del parafo final de la columna derecha*/
+margin-top: 10px;
+font-size: 12px;
+}
+/*...................SECCION DE IMAGENES EN LA TERCERA PARTE....................*/
+.img4 {
+width: 128px;
+height: 125px;
+margin: 10px 10px 0px 0px;
+border: 1px solid #D0CECE;
+padding: 3px;
+background: white;
+}
+.div4{
+float:left;
+position: relative
+}
+.p4 {		/*propiedad del texto debajo de las imagenes las que estan en la orilla
+	toma el ancho de la columna */
+text-align: center;
+font-size: 11px;
+margin-top: 7px;
+margin-bottom: 5px;
+font-family: arial;
+}
+.p42 {		/*Es para centrar los textos de las segundas imagenes ya que toma el
+tamaño de la columna y al centrarla la desplaza a la derecha de usuario, quiza un div lo
+resuelva mejor :(*/
+text-align: left;
+}
+.p44 {		/*Es para centrar los textos de la imagen 4 sucede  que la alinea al tamaño
+de la columna y la desplaza a la izquierda del usuario*/
+text-align: right;
+
+}
+/*....................SECCION DEL PIE DE PAGINA..........................*/
+footer {
+background: #737272;
+padding: 15px 0;
+margin: 0px;
+}
+.pfoo{		/*Propiedades del ultimo parrafo*/
+text-align: center;
+font-family: arial;
+font-size: 15px;
+line-height: 25px;
+color: white;
+font-style: bold;
+}
+.foo{		/*Tamaño de la fila completa*/
+margin: 50px;
+}
+.foo2{		/*Los margenes de la columna*/
+margin-left: 30px;
+margin-top:30px;
+}
+h5 {		/*Propiedades del ultimo texto de toda la pagina */
+font-size: 10px;
+text-align: center;
+color:#D7D4D4;
+}
+.lif {		/*Alineacion de la lista */
+text-align: center;
+float: right;
+font-size: 12px;
+}
